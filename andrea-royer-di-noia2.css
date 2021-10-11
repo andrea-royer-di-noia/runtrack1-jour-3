@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "The Godfather";
+    src: url("TheGodfather-v2.ttf");
+
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-family: The Godfather;
+    letter-spacing: 10px;
+    font-size: 75px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color:#cd0061 ;
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
+}
+
+p:hover{
+    color: white;
+}
+h1:hover{
+    color: #cd0061;
+}
